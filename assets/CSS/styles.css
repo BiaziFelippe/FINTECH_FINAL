@@ -1,0 +1,55 @@
+:root {
+    --laranja: #FF6101;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-image: url("../Images/fundo-de-formas-geometricas-brancas.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    color: var(--laranja);
+    text-transform: uppercase;
+}
+
+.intro {
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.slogan {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    margin-top: 0.5rem;
+    margin-bottom: 100%;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+.btn {
+    background-color: var(--laranja);
+    color: var(--branco);
+    border-radius: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--branco);
+    color: var(--laranja);
+    cursor: pointer;
+}
